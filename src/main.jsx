@@ -7,6 +7,7 @@ import {
 import "./index.css";
 import Home from "./pages/Home";
 import Overview from "./pages/Overview";
+import Machine from "./pages/Machine";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
   {
     path: "/satria-mms/overview",
     element: <Overview />,
+  },
+  {
+    path: "/satria-mms/machine",
+    element: <Machine />,
   },
 ]);
 

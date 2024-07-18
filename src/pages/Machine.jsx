@@ -1,8 +1,8 @@
 import $ from 'jquery';
 import Header from "../components/Header";
 
-const Overview = () => {
-    document.title = "Overview - MMS";
+const Machine = () => {
+    document.title = "Machine - MMS";
 
     const reloadData = () => {
         alert("Reload Data");
@@ -19,4 +19,4 @@ const Overview = () => {
     )
 }
 
-export default Overview;
+export default Machine;
